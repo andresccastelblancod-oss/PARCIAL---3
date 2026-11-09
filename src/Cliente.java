@@ -58,6 +58,7 @@ public class Cliente {
                 "numeroDocumento='" + numeroDocumento + '\'' +
                 ", nombreCompleto='" + nombreCompleto + '\'' +
                 ", telefono='" + telefono + '\'' +
+                ", telefono='" + telefono + '\'' +
                 ", correoElectronico='" + correoElectronico + '\'' +
                 ", direccion='" + direccion + '\'' +
                 '}';
