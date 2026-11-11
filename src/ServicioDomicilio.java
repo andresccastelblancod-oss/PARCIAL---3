@@ -12,10 +12,6 @@ public class ServicioDomicilio {
         this.aceptado = false;
     }
 
-    /**
-     * Procedimiento común para solicitar el servicio a cualquier empresa:
-     * verifica la distancia y, si la acepta, calcula el costo.
-     */
     public boolean solicitarServicio() {
         if (empresa.aceptaDistancia(distanciaKm)) {
             aceptado = true;
