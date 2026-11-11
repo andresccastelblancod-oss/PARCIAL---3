@@ -5,6 +5,6 @@ public interface EmpresaDomicilio {
   
     boolean aceptaDistancia(double distanciaKm);
 
-   
+    
     double calcularCosto(double distanciaKm);
 }
