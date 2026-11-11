@@ -1,5 +1,6 @@
 public class Postre extends Producto {
 
+    
     private static final double INCREMENTO = 0.15;
     private static final double INCREMENTO_REFRIGERADO = 0.05;
     public static final String CATEGORIA_POSTRE = "Postre";
