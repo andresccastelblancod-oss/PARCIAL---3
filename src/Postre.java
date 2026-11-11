@@ -5,7 +5,7 @@ public class Postre extends Producto {
     public static final String CATEGORIA_POSTRE = "Postre";
 
     private double pesoGramos;
-    private double temperaturaAlmacenamiento; // en °C
+    private double temperaturaAlmacenamiento; 
     private boolean requiereRefrigeracion;
 
     public Postre(int codigoUnico, String nombre, String descripcion,
